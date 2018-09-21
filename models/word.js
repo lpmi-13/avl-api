@@ -6,6 +6,6 @@ const wordSchema = new Schema({
   word_list : { type: Array }
 });
 
-const ModelClass = mongoose.model('search', wordSchema);
+const ModelClass = mongoose.model('searches', wordSchema);
 
 module.exports = ModelClass;
